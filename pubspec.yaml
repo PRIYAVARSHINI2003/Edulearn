@@ -1,0 +1,212 @@
+name: edusign
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  carousel_slider: ^4.0.0
+  url_launcher: ^6.1.3
+  webview_flutter: ^2.0.7
+  video_player: ^2.4.8
+  firebase_core: ^1.4.0
+  firebase_analytics: ^8.2.0
+  firebase_auth: ^3.3.0
+  firebase_core_platform_interface: ^4.2.0
+  speech_to_text: ^5.6.0
+  flutter_tts: ^3.5.0
+
+
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/images/img_99.png
+      - assets/images/img_102.png
+      - assets/images/img_100.png
+      - assets/images/img_101.png
+      - assets/images/img_95.png
+      - assets/images/img_96.png
+      - assets/images/img_97.png
+      - assets/images/img_98.png
+      - assets/images/img_94.png
+      - assets/images/img_93.png
+      - assets/images/img_87.png
+      - assets/images/img_86.png
+      - assets/images/img_85.png
+      - assets/images/img_84.png
+      - assets/images/img_83.png
+      - assets/images/img_82.png
+      - assets/images/img_81.png
+      - assets/images/img_80.png
+      - assets/images/img_79.png
+      - assets/images/img_78.png
+      - assets/images/img_77.png
+      - assets/images/img_76.png
+      - assets/images/img_75.png
+      - assets/images/img_74.png
+      - assets/images/img_73.png
+      - assets/images/img_72.png
+      - assets/images/img_71.png
+      - assets/images/img_70.png
+      - assets/images/img_69.png
+      - assets/images/img_68.png
+      - assets/images/img_67.png
+      - assets/images/img_66.png
+      - assets/images/img_65.png
+      - assets/images/img_64.png
+      - assets/images/img_63.png
+      - assets/images/img_62.png
+      - assets/images/img_61.png
+      - assets/images/img_60.png
+      - assets/images/img_59.png
+      - assets/images/img_58.png
+      - assets/images/img_57.png
+      - assets/images/img_56.png
+      - assets/images/img_55.png
+      - assets/images/img_54.png
+      - assets/images/img_53.png
+      - assets/images/img_51.png
+      - assets/images/img_50.png
+      - assets/images/img_49.png
+      - assets/images/img_48.png
+      - assets/images/img_47.png
+      - assets/images/img_46.png
+      - assets/images/img_45.png
+      - assets/images/img_44.png
+      - assets/images/img_43.png
+      - assets/images/img_42.png
+      - assets/images/img_41.png
+      - assets/images/img_40.png
+      - assets/images/img_39.png
+      - assets/images/img_38.png
+      - assets/images/img_37.png
+      - assets/images/img_36.png
+      - assets/images/img_35.png
+      - assets/images/img_34.png
+      - assets/images/img_33.png
+      - assets/images/img_32.png
+      - assets/images/img_31.png
+      - assets/images/img_30.png
+      - assets/images/img_29.png
+      - assets/images/img_28.png
+      - assets/images/img_27.png
+      - assets/images/img_26.png
+      - assets/images/img_25.png
+      - assets/images/img_24.png
+      - assets/images/img_23.png
+      - assets/images/img_22.png
+      - assets/images/img_21.png
+      - assets/images/img_20.png
+      - assets/images/img_19.png
+      - assets/images/img_18.png
+      - assets/images/img_17.png
+      - assets/images/img_16.png
+      - assets/images/img_15.png
+      - assets/images/img_14.png
+      - assets/images/img_13.png
+      - assets/images/img_12.png
+      - assets/images/img_11.png
+      - assets/images/img_10.png
+      - assets/images/img_9.png
+      - assets/images/img_8.png
+      - assets/images/img_7.png
+      - assets/images/img_6.png
+      - assets/images/img_5.png
+      - assets/images/img_4.png
+      - assets/images/img_3.png
+      - assets/images/img_2.png
+      - assets/images/img_1.png
+      - assets/images/img_89.png
+      - assets/images/img_90.png
+      - assets/images/img_91.png
+      - assets/images/img_92.png
+      - assets/videos/splash.mp4
+      - assets/gif/r5.gif
+      - assets/gif/r.gif
+      - assets/gif/r3.gif
+      - assets/gif/G1.gif
+      - assets/gif/g11.gif
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
